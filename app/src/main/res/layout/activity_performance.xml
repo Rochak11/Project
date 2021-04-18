@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signupbackground"
+    tools:context=".Repository.Performance">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7"
+        app:layout_constraintVertical_bias="0.375"
+        tools:layout_editor_absoluteX="185dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+
+        android:layout_marginBottom="136dp"
+        android:gravity="center"
+        android:text="Class"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="22dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName7"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="185dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+
+        android:layout_marginBottom="260dp"
+        android:gravity="center"
+        android:text="Roll no."
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="22dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+
+        android:gravity="center"
+        android:text="performance"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.814"
+        tools:layout_editor_absoluteX="22dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="187dp"
+        android:layout_height="73dp"
+
+        android:gravity="center"
+        android:text="Student's Performance"
+        android:textSize="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+
+        android:gravity="center"
+        android:text="Student Name"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748"
+        tools:layout_editor_absoluteX="22dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="123dp"
+        android:layout_height="53dp"
+        android:text="Back"
+        app:backgroundTint="#711D1D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8"
+        app:layout_constraintVertical_bias="0.53"
+        tools:layout_editor_absoluteX="144dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

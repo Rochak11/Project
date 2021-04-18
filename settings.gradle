@@ -1,0 +1,4 @@
+include ':myapplication'
+include ':schoolos'
+include ':app'
+rootProject.name = "MySchool"

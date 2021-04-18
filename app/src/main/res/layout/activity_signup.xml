@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup1"
+    android:padding="16dp"
+    tools:context=".SignUP">
+
+    <EditText
+        android:id="@+id/etPassword1"
+        android:layout_width="344dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSecondName"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="390dp"
+        android:layout_height="138dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005"
+        app:srcCompat="@drawable/signuplogo" />
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="344dp"
+        android:layout_height="46dp"
+
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageview1"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <EditText
+        android:id="@+id/etSecondName"
+        android:layout_width="344dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Second Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etFirstName"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <EditText
+        android:id="@+id/etUsername1"
+        android:layout_width="344dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etSecondName"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_user_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword1">
+
+        <RadioButton
+            android:id="@+id/rbParent"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:text="Parent"
+            android:textColorHint="@color/white" />
+
+        <RadioButton
+            android:id="@+id/rbFaculty"
+            android:layout_width="175dp"
+            android:layout_height="56dp"
+            android:text="Faculty"
+            android:textColor="#000000"
+            android:textColorHint="@color/white" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="145dp"
+        android:layout_height="49dp"
+        android:text="Signup"
+        app:backgroundTint="#702222"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_group_user_type"
+        app:layout_constraintVertical_bias="0.322" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
